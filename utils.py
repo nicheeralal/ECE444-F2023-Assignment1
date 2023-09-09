@@ -7,7 +7,7 @@ class Utils:
         if isinstance(number, int):
             return int(str(number)[::-1])
         else:
-            raise Exception("Exception, reversed method did not recieve an int")
+            raise Exception("Exception, reversed method did not receive an int")
 
     @staticmethod
     def formatter(number):
@@ -17,4 +17,4 @@ class Utils:
                 "octal": oct(number),
             }
         else:
-            raise Exception("Exception, formatter method did not recieve an int")
+            raise Exception("Exception, formatter method did not receive an int")
